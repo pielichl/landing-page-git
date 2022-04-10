@@ -212,3 +212,34 @@ section {
     padding: 25px;
     margin: 0 0 40px 0;
 }
+
+/* Footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer ul li {
+    
+    display: inline;
+  }
+
+  .footer ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+.social-media i {
+    font-size: 20px;
+    background: black;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+}
