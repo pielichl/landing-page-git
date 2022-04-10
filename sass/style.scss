@@ -6,12 +6,43 @@
 
 body {
     font-family: 'Open Sans';
+    margin: 0;
+}
+
+body h3{
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+section {
+    margin: 0;
 }
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.container p {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    margin: 0;
+}
+
+.segment-title {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 40px 0 0 0;
+}
+
+.box {
+    padding: 50px 0 50px 0;
 }
 
 /* Splash */
@@ -115,26 +146,14 @@ body {
 
 /* SERVICES */
 
-.segment-title {
-    text-align: center;
-    font-weight: 900;
-    font-size: 40px;
-    margin: 40px 0 0 0;
-}
-
-.container p {
- text-align: center;
- font-style: italic;
- font-size: 18px;
- font-family: 'Times New Roman', Times, serif;
- color: grey;
- margin: 0 0 40px 0;
-}
-
 .col-service h3 {
     text-align: center;
     font-weight: bold;
     margin: 0;
+}
+
+.services p {
+    margin: 0 0 40px 0;
 }
 
 .col-service p {
@@ -163,5 +182,33 @@ body {
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0 0 40px 0;
+}
+
+/* portfolio */
+
+.portfolio {
+    background-color: rgb(233, 231, 231);
+}
+
+.card-image {
+    height: 300px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    padding: 25px;
     margin: 0 0 40px 0;
 }
